@@ -1,0 +1,93 @@
+.contenedorTitulo{
+    border: 1px solid white;
+    margin-top: -35px;
+    background-color: #FED75A;
+    /* background-color: rgb(173, 73, 69); */
+}
+
+
+
+h2{
+    text-align: center;
+    color:black;
+    /* color: white; */
+    padding-top: 20px;
+}
+
+.linea1{
+    border: 1px solid  black;
+    width: 10%;
+}
+
+.row{
+    height: 350px;
+    /* background-color: #FED75A;
+    border: 1px solid black; */
+
+}
+
+.primero{
+    background-color: white;
+}
+
+.dato{
+    font-size: 120px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.datoNumerico1{
+    color:#ff6348;
+}
+
+.datoNumerico2{
+    color: #70a1ff;
+    margin-top: 20px;
+}
+
+.texto1{
+    font-size: 25px;
+    /* text-justify: center; */
+    text-align: center;
+    font-style: bold;
+    /* border: 1px solid black; */
+}
+
+.texto2{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    /* font-style: bold; */
+}
+
+
+
+
+.segundo{
+    background-color: white;
+}
+.texto3{
+    font-size: 40px;
+}
+
+.linea2{
+    margin-top: 80px;
+    border: 2px solid #FED75A;
+}
+
+.linea3{
+    border: 2px solid #FED75A;
+}
+
+.btn-success{
+    margin-left:300px;
+  
+}
+
+
+
+
+
+.map{
+    height: 350px;
+    background-color: antiquewhite;
+}
