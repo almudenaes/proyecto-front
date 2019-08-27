@@ -88,6 +88,14 @@ h2{
 
 
 .map{
-    height: 350px;
+    height: 380px;
     background-color: antiquewhite;
+    padding-top: 30px;
+}
+
+.mapa{
+    width: 1200px;
+    height: 340px;
+    border: 1px solid black;
+    margin-left: 7%;
 }
