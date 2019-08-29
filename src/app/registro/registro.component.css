@@ -29,7 +29,21 @@ h2{
 }
 
 .textoDonar{
-    font-size: 15px;
+    font-size: 16px;
+    margin-left: 4px;
+    text-decoration: underline;
 
+}
+
+.form-check-label{
+    font-size: 19px;
+}
+
+button{
+    margin-left: 60px;
+    padding-right: 600px;
+    padding-left: 600px;
+    background-color: rgb(118, 167, 196) !important;
+    border: none;
 }
 
