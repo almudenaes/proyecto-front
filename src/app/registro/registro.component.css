@@ -1,3 +1,22 @@
+/* CABECERA */
+.navbar{
+    background-color:rgb(87, 80, 80) !important;
+    font-size: 20px;
+    
+}
+
+a{
+    color: white !important;
+
+}
+
+.nav-link:hover{
+    color: #e74c3c !important; 
+   }
+
+
+
+
 /* TITULO */
 .contenedorTitulo{
     border: 1px solid white;
@@ -21,11 +40,12 @@ h2{
 /* BLOQUE DE REGISTRO */
 
 .caja{
-    height: 680px;
+    height: auto;
     background-color: white;
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 40px;
 }
 
 .textoDonar{

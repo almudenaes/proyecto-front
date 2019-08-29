@@ -16,6 +16,7 @@ export class DondeComponent implements OnInit {
 
   ngOnInit() {
 
+
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
         console.log("hola");
