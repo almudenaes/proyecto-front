@@ -9,6 +9,7 @@ import { QuienesComponent } from './quienes/quienes.component';
 import { RegistroComponent } from './registro/registro.component';
 import { MainComponent } from './main/main.component';
 import { RequisitosComponent } from './requisitos/requisitos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RequisitosComponent } from './requisitos/requisitos.component';
     QuienesComponent,
     RegistroComponent,
     MainComponent,
-    RequisitosComponent
+    RequisitosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
