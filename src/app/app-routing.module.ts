@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CabeceraComponent } from './cabecera/cabecera.component';
+import { RegistroComponent } from './registro/registro.component';
 
 
 const routes: Routes = [
+  { path: 'registro', component: RegistroComponent }
 
 ];
 

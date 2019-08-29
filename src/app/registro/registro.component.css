@@ -1,7 +1,7 @@
 /* TITULO */
 .contenedorTitulo{
     border: 1px solid white;
-    background-color: #FED75A;
+    background-color: rgb(250, 224, 141);
     /* background-color: rgb(173, 73, 69); */
 }
 
@@ -20,7 +20,7 @@ h2{
 
 /* BLOQUE DE REGISTRO */
 
-.contenedor{
+.caja{
     height: 680px;
     background-color: white;
     padding-top: 30px;

@@ -7,6 +7,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { DondeComponent } from './donde/donde.component';
 import { QuienesComponent } from './quienes/quienes.component';
 import { RegistroComponent } from './registro/registro.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RegistroComponent } from './registro/registro.component';
     CabeceraComponent,
     DondeComponent,
     QuienesComponent,
-    RegistroComponent
+    RegistroComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

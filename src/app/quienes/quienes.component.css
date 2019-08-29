@@ -1,0 +1,44 @@
+/* TITULO */
+.contenedorTitulo{
+    border: 1px solid white;
+    margin-top: -35px;
+    background-color: rgb(250, 224, 141);
+    /* background-color: rgb(173, 73, 69); */
+}
+
+h2{
+    text-align: center;
+    color:black;
+    /* color: white; */
+    padding-top: 20px;
+}
+
+.linea1{
+    border: 1px solid  black;
+    width: 10%;
+}
+
+/* CONTENEDOR */
+.caja{
+    height: 650px;
+}
+
+.columna1{
+    margin-top: 100px;
+}
+.answer{
+text-align: center;
+font-size: 14px;
+}
+
+img{
+ height: 615.9px;
+ width: 705px;
+ transition: .5s;
+}
+
+img:hover{
+    height: 625px;
+    width: 715px;
+
+}
