@@ -10,6 +10,9 @@ import { RegistroComponent } from './registro/registro.component';
 import { MainComponent } from './main/main.component';
 import { RequisitosComponent } from './requisitos/requisitos.component';
 import { FooterComponent } from './footer/footer.component';
+import { CabeceraUserComponent } from './cabecera-user/cabecera-user.component';
+import { BodyUserComponent } from './body-user/body-user.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FooterComponent } from './footer/footer.component';
     RegistroComponent,
     MainComponent,
     RequisitosComponent,
-    FooterComponent
+    FooterComponent,
+    CabeceraUserComponent,
+    BodyUserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
