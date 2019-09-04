@@ -31,56 +31,63 @@ h2{
 }
 
 .dato{
-    font-size: 120px;
-    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
 }
 
 .datoNumerico1{
     color:#ff6348;
+    margin-top: 100px;
+    font-size: 70px;
+
+
 }
 
 .datoNumerico2{
-    color: #70a1ff;
-    margin-top: 20px;
+    color: #ff6348;
+    margin-top: 100px;
+    font-size: 70px;
 }
 
 .texto1{
-    font-size: 25px;
+    font-size: 20px;
     /* text-justify: center; */
     text-align: center;
-    font-style: bold;
+    padding-top: 20px;
+
     /* border: 1px solid black; */
 }
 
 .texto2{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     /* font-style: bold; */
 }
 
 
 
+.cajita{
+text-align: center;
+margin-left: -350px;
+margin-top: 90px;
 
+}
 .segundo{
     background-color: white;
 }
 .texto3{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .linea2{
     margin-top: 80px;
-    border: 2px solid #FED75A;
+    border: 1px dotted #ff6348;
 }
 
 .linea3{
-    border: 2px solid #FED75A;
-}
-
-.btn-success{
-    margin-left:300px;
-  
+    border: 1px dotted #ff6348;
 }
 
 
@@ -88,14 +95,14 @@ h2{
 
 
 .map{
-    height: 380px;
-    background-color: antiquewhite;
-    padding-top: 30px;
+    height: 500px;
+    border: 2px solid black;
+    /* background-color: antiquewhite; */
 }
 
 .mapa{
-    width: 1200px;
-    height: 340px;
+    width: 702px;
+    height: 600px;
     border: 1px solid black;
-    margin-left: 7%;
+
 }

@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,9 +12,11 @@ import { RegistroComponent } from './publico/registro/registro.component';
 import { MainComponent } from './publico/main/main.component';
 import { RequisitosComponent } from './publico/requisitos/requisitos.component';
 import { FooterComponent } from './footer/footer.component';
-import { CabeceraUserComponent } from './user/cabecera-user/cabecera-user.component';
 import { BodyUserComponent } from './user/body-user/body-user.component';
 import { LoginComponent } from './loggin/login/login.component';
+import { DatosUserComponent } from './user/datos-user/datos-user.component';
+import { CalendarioComponent } from './user/calendario/calendario.component';
+import { DondeUserComponent } from './user/donde-user/donde-user.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +28,17 @@ import { LoginComponent } from './loggin/login/login.component';
     MainComponent,
     RequisitosComponent,
     FooterComponent,
-    CabeceraUserComponent,
     BodyUserComponent,
-    LoginComponent
+    LoginComponent,
+    DatosUserComponent,
+    CalendarioComponent,
+    DondeUserComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,35 @@
-<p>body-user works!</p>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" [routerLink]="['/user']">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" [routerLink]="['/user/datos']">Actualizar datos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" [routerLink]="['/calendario']">Calendario</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" [routerLink]="['/dondeuser']">¿Donde estamos?</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" [routerLink]="['/home']">LOG OUT</a>
+    </li>
+</ul>
+
+<!-- BODY -->
+
+<h2>DATOS PERSONALES</h2>
+
+<div class="contenedor">
+    <ul class="lista">
+        <li class="element">Nombre: Rodolfo</li>
+        <li class="element">Apellidos: Perez Anis</li>
+        <li class="element"> Email: rodolfin@anis.com</li>
+        <li class="element">Direccion 1: calle de la mesa nº2</li>
+        <li class="element">Direccion 2: calle Gran Via</li>
+        <li class="element">Ciudad: Madrid</li>
+        <li class="element">Provincia: Madrid</li>
+        <li class="element">CP:17263</li>
+        <li class="element">CHECK: ACTIVADO</li>
+    </ul>
+</div>

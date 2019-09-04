@@ -24,8 +24,16 @@ input{
 
 button{
     margin-top: 15px;
-    /* background-color: tomato;
-    border-radius: 10%; */
+    /* margin-right: 10px; */
+}
+
+.volver{
+    margin-right: 10px;
+
+}
+.entrar{
+    margin-right: -10px;
+
 }
 
 a{

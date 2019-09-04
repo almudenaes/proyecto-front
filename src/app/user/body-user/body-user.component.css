@@ -1,0 +1,24 @@
+.cajaMenu{
+    height: 500px;
+    width: 150px; 
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 120px;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+.contenedor{
+    height: 500px;
+    width: 800px;
+    border: 1px dotted grey;
+    margin-left: 25%;
+    margin-bottom: 80px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

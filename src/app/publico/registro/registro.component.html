@@ -33,119 +33,26 @@
 </div>
 
 <!-- Bloque de registro -->
-<form class="caja">
-    <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="inputEmail4">Nombre</label>
-            <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputEmail4">Apellidos</label>
-            <input type="texto" class="form-control" id="inputEmail4" placeholder="Apellidos">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputTipo">Tipo de sangre</label>
-            <select id="inputTipo" class="form-control">
-                <option selected>Choose...</option>
-                <option>A+</option>
-                <option>B+</option>
-                <option>O+</option>
-                <option>AB+</option>
-                <option>A-</option>
-                <option>B-</option>
-                <option>O-</option>
-                <option>AB-</option>
-            </select>
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-        </div>
-        <p class="textoDonar">Introduce varias direcciones en la que estes frecuentemente y asi tener mas posibilidades
-            de donar! 💉 </p>
+<div class="form row">
+    <div class="col-md-6 first">
+        <form class="caja" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" formControlName="username">
+                <br>
+                <label>Email</label>
+                <input type="email" class="form-control" formControlName="email">
+                <br>
+                <label>Password</label>
+                <input type="password" class="form-control" formControlName="password">
+                <button type="submit" value="Enviar" class="btn btn-primary">ENVIAR</button>
+            </div>
+        </form>
     </div>
-    <div class="form-group">
-        <label for="inputDireccion">Dirección Principal</label>
-        <input type="text" class="form-control" id="inputDireccion" placeholder="Dirección principal">
-    </div>
-    <div class="form-group">
-        <label for="inputAddress2">Dirección Secundaria</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Dirección secundaria">
-    </div>
-    <div class="form-row">
-        <div class="form-group col-md-4">
-            <label for="inputCity">Ciudad</label>
-            <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
-        </div>
-        <div class="form-group col-md-4">
-            <label for="inputState">Provincia</label>
-            <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>Álava</option>
-                <option>Albacete</option>
-                <option>Alicante</option>
-                <option>Almería</option>
-                <option>Asturias</option>
-                <option>Ávila</option>
-                <option>Badajoz</option>
-                <option>Barcelona</option>
-                <option>Burgos</option>
-                <option>Cáceres</option>
-                <option>Cádiz</option>
-                <option>Cantabria</option>
-                <option>Castellón</option>
-                <option>Ciudad Real</option>
-                <option>Córdoba</option>
-                <option>La Coruña</option>
-                <option>Cuenca</option>
-                <option>Gerona</option>
-                <option>Granada</option>
-                <option>Guadalajara</option>
-                <option>Guipúzcoa</option>
-                <option>Huelva</option>
-                <option>Huesca</option>
-                <option>Baleares</option>
-                <option>Jaén</option>
-                <option>León</option>
-                <option>Lérida</option>
-                <option>Lugo</option>
-                <option>Madrid</option>
-                <option>Málaga</option>
-                <option>Murcia</option>
-                <option>Navarra</option>
-                <option>Orense</option>
-                <option>Palencia</option>
-                <option>Las Palmas</option>
-                <option>Pontevedra</option>
-                <option>La Rioja</option>
-                <option>Salamanca</option>
-                <option>Segovia</option>
-                <option>Sevilla</option>
-                <option>Soria</option>
-                <option>Tarragona</option>
-                <option>Santa Cruz de Tenerife</option>
-                <option>Teruel</option>
-                <option>Toledo</option>
-                <option>Valencia</option>
-                <option>Valladolid</option>
-                <option>Vizcaya</option>
-                <option>Zamora</option>
-                <option>Zaragoza</option>
-            </select>
-        </div>
-        <div class="form-group col-md-4">
-            <label for="inputZip">Código Postal</label>
-            <input type="text" class="form-control" id="código postal" placeholder="Código Postal">
+    <div class="col-md-6 second">
+        <div class="mx-auto">
+            <img class="mx-auto" src="https://img.icons8.com/clouds/200/000000/enter-2.png">
+            <h4 class="mx-auto" [routerLink]="['/login']">¿Ya estas registrado? Pulsa aqui</h4>
         </div>
     </div>
-    <div class="form-group">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-                Haz click en esta casilla si quieres que te tengamos en cuenta en caso de donacion urgente fuera de tu
-                rango de ubicación.
-            </label>
-        </div>
-    </div>
-    <button type="submit" class="btn btn-primary ">ENVIAR</button>
-</form>
+</div>
